@@ -1,0 +1,132 @@
+.block {
+  
+    transition: 0.3s;
+    background-color:white;
+    width: 1100px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .btn{
+      float: right;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      padding-top: 5px;
+      border-radius: 8px;
+      background: #058CE6  ;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;    
+      margin-top: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 40px;
+      width: 1095px;
+      cursor: pointer;
+  }
+  .btn:hover{
+      background-color: #0471B9   ;
+     
+  }
+  .btn:focus{
+      border: 2px solid skyblue;
+  }
+  
+  .blockbelow {
+   
+    transition: 0.3s;
+    background-color:white;
+    width: 540px;
+    height: 200px;
+    margin-left: 1px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .block-title{
+      font-size:35px;
+      font-family: new time roman;
+      text-align: center;
+      
+      
+      }
+  .card:hover {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+  
+  }
+  .feedback{
+      color: red;
+      font-size: 13px;
+      margin-left: 30px;
+      margin-top: 10px;
+  }
+  label{
+      margin-left: 30px;
+      font-size: 20px;
+      margin-top: 30px;
+      
+  }
+  .gender_image{
+    
+      width: 10em;
+      position: absolute;
+      top: 0em;
+      left: 50%;
+      margin-left: -5em;
+      border-radius: 100%;
+      overflow: hidden;
+      background-color: white;
+    
+  }
+  select {
+      width: 130px;
+          border: 5px solid rgb(35, 156, 196);
+          height: 39px;  
+          border-radius: 3px;
+          border: 1px solid #ccc;
+          margin-left: 100px;
+          margin-right: 1px;    
+          position: relative;
+          top: -2.4em;
+          font-family: new time roman;
+          padding-left: 8px;
+          font-size: 14px;
+      }
+      select:focus{
+          border: 3px solid skyblue;
+      }
+    .belowtextboxes{
+      border: 1px solid #ccc;height: 30px; width: 250px;border-radius:5px;
+      font-family: new time roman;
+          padding-left: 8px;
+          font-size: 16px;  
+  }
+  .bbox{
+    font-family: new times roman; font-size: 16px; margin-top: 15px; border-radius: 3px; height: 30px;width:250px;border: 1px solid #ccc; padding-left: 8px;
+  }
+      .name{
+          width: 350px;
+          border: 5px solid rgb(35, 156, 196);
+          height: 35px;  
+          border-radius: 3px;
+          border: 1px solid #ccc;
+          margin-left: 20px;
+          margin-right: 1px;    
+          position: relative;
+          top: -2em;
+          font-family: new time roman;
+          padding-left: 8px;
+          font-size: 14px;
+      }
+      body {
+      background-color: #e9ebee;
+  }
+  

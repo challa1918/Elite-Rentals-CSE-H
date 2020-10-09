@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential</title>
+    <link href="css\nav.css" rel="stylesheet">
+    <link rel= "stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="css\carousel.css">
+    <link rel="stylesheet" href="css\residential.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+</head>
+<body>
+    <header>
+        <div class="menu-bar">
+        
+                     
+            <ul>
+              <li style="margin-left:-14em; padding-right: 70px;"> <a href="home.html"><b><span>ELITE</span>RENTALS</B></a></li>
+              <li><b><a  href="home.html">HOME</a></b></li>
+              <li "><b><a style="color:rgb(55, 218, 55);"  href="#">RENTALS&nbsp&nbsp<big><i style="font-size: 10px;" class="fas fa-chevron-down"></i></big> </a></b>  
+                        
+              <div class="drop-down ">
+                  <ul>
+                    
+                    <li ><b><a style="color:rgb(55, 218, 55);" href="residential.html">RESIDENTIAL</a></b></li>
+                    <li><b><a  href="commercial.html">COMMERCIAL</a></b></li>
+                  
+                  </div>
+              </li>
+  
+          
+               <li><b><a href="postproperty.html">POST A PROPERTY</a></b></li>
+      
+                <li><b><a href="Movepack.html">MOVING AND PACKING</a></b></li>
+            
+                <li><b><a href="#footer">CONTACT US</a></b>  </li>
+                  
+                  <li><b><a href="login.html">LOGOUT</a></b></li>
+                  <div class="user">
+                    User name
+                  </div>
+      
+              </ul>
+         
+            </div>        
+
+            
+      
+    </header>
+    <div class="search">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_a11nnB.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin-left: 40%;"  loop  autoplay></lottie-player>
+        
+        <select name="" id="typeselec">
+            <option value=""selected disabled>Select Property Type</option>
+            <option value="">Flat</option>
+            <option value="">House</option>
+           
+        </select>
+        <select name="" id="cityselect">
+            <option value="" selected disabled>Select City</option>
+            <option value="">Hyderabad</option>
+            <option value="">Vijayawada</option>
+            <option value="">Warangal</option>
+        </select>
+        <input type="text" id="locality" placeholder="Enter Locality">
+        <input type="button" value="Search" id="search" class="searchbutton">
+   </div>
+    
+
+
+    
+    <footer id="footer" style="margin-top:0%">
+        <div class="row">
+       <div class="column">
+        <h2 style="color: white;">Elite Rentals</h2>
+        <br>
+         <a href="#">Dilshukhnagar</a><br>
+         <a href="#">Hyderabad,</a><br>
+         <a href="#">India.</a><br>
+         <a href="#">Phone:+91 9999999999</a><br>
+         <a href="#">Email:Rentals@gmail.com</a><br>
+      </div>
+       <div class="column">
+           <h2 style="color: white;">Useful Links</h2>
+           <br>
+           <i style="color: white;" class="bx bx-chevron-right"></i><a href="#">Home</a><br>
+           <i class="bx bx-chevron-right"></i><a href="#"> Rentals</a><br>
+           <i class="bx bx-chevron-right"></i> <a href="#"> About</a><br>
+       </div>
+      
+    </footer>
+    
+    <script>
+      document.getElementById("search").addEventListener("click",function(){
+       
+          window.location.href="resdentialsearchresults.html";
+      });
+    </script>
+    
+</body>
+</html>

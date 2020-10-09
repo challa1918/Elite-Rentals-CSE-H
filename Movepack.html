@@ -1,0 +1,228 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packers And Movers</title>
+    <link href="css/nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/movepack.css">
+    <link rel= "stylesheet" href="css/footer.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  
+</head>
+<body>
+    <header>
+        <div class="menu-bar">            
+            <ul>
+              <li style="margin-left:-14em; padding-right: 70px;"> <a href="home.html"><b><span>ELITE</span>RENTALS</B></a></li>
+              <li><b><a  href="home.html">HOME</a></b></li>
+              <li "><b><a   href="#">RENTALS&nbsp&nbsp<big><i style="font-size: 10px;" class="fas fa-chevron-down"></i></big> </a></b>  
+                        
+              <div class="drop-down ">
+                  <ul>
+                    
+                    <li ><b><a  href="residential.html">RESIDENTIAL</a></b></li>
+                    <li><b><a href="commercial.html">COMMERCIAL</a></b></li>
+                  
+                  </div>
+              </li>
+  
+          
+               <li><b><a href="postproperty.html">POST A PROPERTY</a></b></li>
+      
+                <li><b><a style="color:rgb(55, 218, 55);" href="Movepack.html">MOVING AND PACKING</a></b></li>
+            
+                <li><b><a href="#footer">CONTACT US</a></b>
+                 
+                  </li>
+                  
+                  <li><b><a href="login.html">LOGOUT</a></b></li>
+                  <div class="user">
+                    User name
+                  </div>
+      
+              </ul>
+         
+            </div>        
+
+            
+      
+    </header>
+    <div class="animationBox">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_qn0GjJ.json"  background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>
+<div class="response" id="response" style="display: none;" >
+  <h1>Your information is sent...</h1>
+  <h1>We will contact you ASAP.</h1>
+</div>
+
+</div>
+    <div class="post">
+       <h1 style="margin-left: 35px; font-family: new times roman;"> Fill The Details</h1> 
+       <div class="inputWithIconuser">
+       
+        <input type="text" style="padding-left: 50px; width: 380px;" placeholder="Name" id="pname" class="inputs"/>
+        <i class="fas fa-user" aria-hidden="true"></i>
+
+      </div>
+      <div class="inputWithIcon">
+
+      <br><input type="number" style="padding-left: 50px;width: 380px;" placeholder="Contact" id="pphn" class="inputs"/>
+      <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+
+      </div>
+      <div class="inputWithIcon">
+      <br><i class="fas fa-envelope" aria-hidden="true"></i><input type="email" style="padding-left: 50px;width: 380px;" id="pemail" placeholder="E-mail" class="inputs"/>
+    </div>
+
+    <div class="inputWithIcon">
+      <br><input type="date" style="padding-left: 50px;width: 380px;" id="pmovedate"  class="inputs">
+    </div>
+
+    <div class="inputWithIcon">
+      <br> <select name="" style="padding-left: 50px;width: 380px;" id="pwfrom">
+            <option value="none"selected disabled>WhereFrom</option>
+            <option value="Ameerpet">Ameerpet</option>
+            <option value="Amberper">Amberpet</option>
+            <option value="Balanagar">Balanagar</option>
+            <option value="Chikadpalli">Chikadpalli</option>   
+        </select>
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+
+      </div>
+    <div class="inputWithIcon">
+        <br> <select name="" style="padding-left: 50px;width: 380px;" id="pwto">
+            <option value="none"selected disabled>WhereTo</option>
+            <option value="Ameerpet">Ameerpet</option>
+            <option value="Amberpet">Amberpet</option>
+            <option value="Balanagar">Balanagar</option>
+            <option value="Chikadpalli">Chikadpalli</option>    
+        </select>
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+    </div>  
+
+    <br><input type ="button" style="margin-left: 110px;"  id="pbtn" onclick="javascript:validation();" class="searchbutton" value="PLACE ORDER"></a>
+   </div>
+    
+   <script>
+     function validation(){
+    
+       
+    var name = document.getElementById('pname').value;
+    
+        var from = document.getElementById('pwfrom').value;
+        var to = document.getElementById('pwto').value;
+        var movdate = document.getElementById('pmovedate').value;
+        var mobileNumber = document.getElementById('pphn').value;
+        var emails = document.getElementById('pemail').value;
+
+        
+
+
+
+        if(name == ""){
+            alert(" ** Please fill the Name field");
+            return false;
+        }
+        if((name.length <= 2) || (name.length > 20)) {
+           alert(" **Name lenght must be between 2 and 20");
+            return false;	
+        }
+        if(!isNaN(name)){
+            alert(" ** only characters are allowed");
+            return false;
+        }
+
+
+        
+        if(mobileNumber == ""){
+            alert(" ** Please fill the mobile Number field");
+             return false;
+         }
+         if(isNaN(mobileNumber)){
+          alert(" ** user must write digits only not characters");
+             return false;
+         }
+         if(mobileNumber.length!=10){
+            alert(" ** Mobile Number must be 10 digits only");
+             return false;
+         }
+        
+
+         if(emails == ""){
+            alert(" ** Please fill the email id` field");
+              return false;
+          }
+          if(emails.indexOf('@') <= 0 ){
+              alert(" ** @ Invalid Position in email field");
+              return false;
+          }
+  
+          if((emails.charAt(emails.length-4)!='.') && (emails.charAt(emails.length-3)!='.')){
+             alert(" ** . Invalid email id");
+              return false;
+          }
+  
+  
+
+
+          if(movdate==""){
+           alert("**Please select the date of moving");
+           return false;
+       }
+
+
+
+        if(from == "none"){
+            
+            alert("**Please select the pickup location");
+            
+            return false;
+        }
+        if(to== "none"){
+            
+            alert("**Please select the drop location");
+            
+            return false;
+        }
+       
+       
+       document.getElementById("response").style.display="block";
+
+
+     }
+
+     
+
+   </script>
+
+
+    
+    <footer id="footer" style="margin-top:0%">
+        <div class="row">
+       <div class="column">
+        <h2 style="color: white;">Elite Rentals</h2>
+        <br>
+         <a href="#">Dilshukhnagr</a><br>
+         <a href="#">Hyderabad,</a><br>
+         <a href="#">India.</a><br>
+         <a href="#">Phone:+91 9999999999</a><br>
+         <a href="#">Email:Rentals@gmail.com</a><br>
+      </div>
+       <div class="column">
+           <h2 style="color: white;">Useful Links</h2>
+           <br>
+           <i style="color: white;" class="bx bx-chevron-right"></i><a href="#">Home</a><br>
+           <i class="bx bx-chevron-right"></i><a href="#"> Rentals</a><br>
+           <i class="bx bx-chevron-right"></i> <a href="#"> About</a><br>
+       </div>
+      
+    </footer>
+   
+   
+</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+   
+
+}
+.box{
+    margin: 30px;
+    position: relative;
+    box-align:bottom;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:850px;
+    height:320px;
+    padding:20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+    display: flex;
+    transition: .5px;
+}
+.box:hover{
+    box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+.box .imgBx{
+    width:150px;
+    flex:0 0 150px
+}
+.box .imgBx img{
+    max-width: 75%;
+}
+.box .content
+{
+    padding-left:20px;
+}
+.box .content h2{
+    margin:0;
+    padding-left:0;
+    color:black;
+    font-size:22px;
+}
+.box .content p{
+    margin:0;
+    padding:10px 0 0;
+    text-align:justify;
+}
+.box .content table {
+    border-collapse: collapse;
+    height:1px;
+    background: lightgray;
+    border-color:white;
+    
+}
+.box .content table tr {
+    border-bottom:none;
+    border-right-color: grey;
+    
+}
+.box .content table tr th{
+    color:grey;
+   
+}
+
+.box .content table tr td{
+    color:black;
+}
+.box .content table tr td select{
+    color:black;
+    background:lightgrey;
+    height:30px;
+    width:150px;
+}
+.box .content button{
+    width:120px;
+    height:40px;
+    color:black;
+    border-color:rgb(241, 10, 10);
+    color:rgb(241, 10, 10);
+}
+.box .content button:hover{
+    background:rgb(241, 10, 10);
+    color:white;
+    cursor:pointer;
+}
+.box .content .footer{
+    text-align:right;
+    color:grey;
+}
+.box .imgBx .footer{
+    color:grey;
+}
+.box .imgBx header{
+    color:rgb(55, 218, 55);
+}

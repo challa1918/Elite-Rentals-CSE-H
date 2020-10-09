@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css\login.css">
+
+    <link rel="stylesheet" href="carousel.css">
+    <style>
+  
+    </style>
+</head>
+<body>
+
+    
+    <div class="content">
+        <img src="images/c.png" alt="" id="icon"   >
+        <form  action="home.html">
+            <h1>
+                Login to continue
+            </h1>
+            
+            
+            <div >
+                <input class="inputtext" type="text" name="email" id="lemail" placeholder="Email">
+               
+                
+            </div>
+            
+            
+            <div  >
+                <input class="inputtext" type="password" name="pass" id="lpass" placeholder="Password">
+          
+    
+            </div>
+
+      
+                <div style="margin-top: 14px; margin-left: 30px;" >
+                    <input  id="ckb1" type="checkbox" name="remember-me">
+                    <label>
+                        Remember me&nbsp&nbsp&nbsp&nbsp&nbsp
+                    </label>
+               
+                    <input  id="showp" onclick="show()" type="checkbox" name="remember-me">
+                    <label ">
+                        Show password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    </label>
+                
+                    <a href="forgotpassword.html" class="fp">
+                        Forgot Password?
+                    </a>
+                </div>
+           
+    
+                <input class ="btn" type="button" value="Login" id="login">
+
+                <input class ="btn  style="margin-top: 7px;" type="button" value="Register" id="reg">
+               
+            </div>
+            
+            
+            
+
+        </form>
+      </div>
+      
+        <img class="sidenav" src="images\hwp.jpg" alt="">
+    
+      
+      <script>
+          document.getElementById("reg").addEventListener("click",
+          function(){
+            window.location.href="signup.html";
+          });
+
+
+
+
+        function show(){
+         var pswrd = document.getElementById('lpass');
+         var icon = document.querySelector('showp');
+         if (pswrd.type === "password") {
+          pswrd.type = "text";
+      
+          icon.style.color = "#7f2092";
+         }else{
+          pswrd.type = "password";
+          icon.style.color = "grey";
+         }
+        }
+
+        document.getElementById("login").addEventListener("click",
+        function(){
+          
+            var email=document.getElementById("lemail").value;
+            var pass=document.getElementById("lpass").value;
+
+            if(email == ""){
+              document.getElementById("lemail").value="";
+             document.getElementById("lemail").placeholder="** Please fill the email id field";
+             document.querySelector('input[type=text]').style.setProperty("--c", "red");
+               return false;
+           }
+           if((email.charAt(email.length-4)!='.') && (email.charAt(email.length-3)!='.')){
+            
+            document.getElementById("lemail").value="";
+              document.getElementById("lemail").placeholder=" ** . Invalid email id";
+              document.querySelector('input[type=text]').style.setProperty("--c", "red");
+               return false;
+           }
+   
+           if(email.indexOf('@') <= 0 ){
+            document.getElementById("lemail").value="";
+             document.getElementById("lemail").placeholder=" ** Missing @ in email field";
+             document.querySelector('input[type=text]').style.setProperty("--c", "red");
+               
+               return false;
+           }
+   
+         
+           if(pass == ""){
+               
+               document.getElementById("lpass").value="";
+               document.getElementById("lpass").placeholder="** Please fill the password field";
+               document.querySelector('input[type=password]').style.setProperty("--c", "red");
+               document.querySelector('input[type=text]').style.setProperty("--c", "red");
+               
+               return false;
+           }
+           if((pass.length < 6) || (pass.length > 20)) {
+            document.getElementById("lpass").value="";
+            document.getElementById("lpass").placeholder="** Passwords length must be between  6 and 20";
+            document.querySelector('input[type=password]').style.setProperty("--c", "red");
+            document.querySelector('input[type=text]').style.setProperty("--c", "red");
+               return false;	
+           }
+           window.location.href="home.html";
+        
+        
+        });
+
+    
+    
+    
+       </script>
+   
+    
+</body>
+</html>

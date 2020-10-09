@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #icon{
+      height: 290px;
+      width: 300px;
+      margin-left:120px;
+      margin-top: -40px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 810px;
+    
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  
+  
+  label{
+      font-size: small;
+      color: lightslategray;
+  }
+  .fp{
+      text-decoration: none;
+      color: rgb(151, 150, 150);
+      font-size: 12px;
+      margin-left: 65px;
+      
+  }
+  body{
+      font-family: new time roman;
+  }
+  a{
+      text-decoration: none;
+      color: #111;
+    
+  }
+  ::placeholder{
+      font-family: new time roman;
+      font-size: 20px;
+      
+  }
+  .btn{
+      width:89%;
+      background-color: rgb(118, 118, 245);
+      border : 2px solid white;
+      color: white;
+      cursor: pointer;
+      border-radius: 15px;
+      margin: 4px 0;
+      padding:16px;
+      margin-top: 16px;
+      margin-left: 30px;
+     font-size: 20px;
+     font-family: new time roman;
+  
+  }
+  
+  .btn:hover{
+      background-color: rgb(49, 47, 47);
+      
+  }
+  
+  h1{
+      font-size: 35px;
+      margin-top: -50px;
+      text-align: center;
+  
+  }
+  
+    
+  .inputtext{
+      width: 89%;
+      height: 70px;
+      margin-top: 20px;
+      margin-left: 30px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: larger;
+      font-family: new time roman;
+      padding-left: 30px;
+      
+  }
+  ::placeholder {
+    color: var(--c, rgb(138, 138, 138));
+  }
+  .content {
+    margin-left: 800px;
+    padding-left: 20px;
+  }    

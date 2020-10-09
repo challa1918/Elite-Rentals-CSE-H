@@ -1,0 +1,127 @@
+
+#house:hover{
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+        }
+        #shops:hover{
+    background-color: lightsalmon;
+    color: white;
+    cursor: pointer;
+        }
+        #hostels:hover{
+    background-color: lightpink;
+    color: white;
+    cursor: pointer;
+        }
+        #postproperty:hover{
+    background-color:#f7f750;
+    color: white;
+    cursor: pointer;
+        }
+        #movingpacking:hover{
+    background-color:rgb(243, 130, 130);
+    color: white;
+    cursor: pointer;
+        }
+        
+        .block{
+          height: 400px;
+          width: 350px;
+          background-color: white;
+                margin:50px;
+          margin-left:110px;
+          box-shadow:0px 0px 1px 1px white;
+    
+        }
+        
+       
+        img{
+          height: 700px;
+        }
+        .text{
+          height: 180px;
+          border-top:5px solid rgb(18, 182, 18) ;
+          width: 800px;      
+          margin-left: 21%;     
+          background: rgba(0, 0, 0, 0.233);
+          text-align: left;
+          font-family: new times roman;
+          margin-bottom: 80px;   
+          position:absolute; 
+        
+        }
+        .text p{
+          margin-top: 10px; font-size: 16px; font-family: poppins;
+        }
+        .services_title{
+          text-align: center;
+          margin-top: 400px;
+          font-size: 25px;
+          color: rgba(0, 0, 0, 0.808);
+          font-family:sans-serif ;
+        }
+        .aboutus_title{
+          text-align: center;
+          margin-top: 120px;
+          font-size: 25px;
+          color: rgba(0, 0, 0, 0.808);
+          font-family:sans-serif ;
+        }
+        .about_us_right{
+          position: absolute;
+          left: 700px;
+          margin-top: 40px;
+          height: 300px;
+          font-size: 20px;
+          background-color:rgb(245, 244, 244);
+          color: rgb(143, 141, 141);
+          
+    
+        }
+        .house:hover{
+          background-color: lightblue;
+        }
+        .icon{
+          position: absolute;
+          height: 100px;
+          width: 100px;
+          margin-left: -60px;
+          margin-top: 100px;
+        }
+        .block_content{
+          margin-top: 250px;
+          position: absolute;
+        }
+        .block_content p{
+          font-size: 14px;text-align: center; padding: 10px; margin-top: 10px;
+        }
+        hr{
+          width: 62px;
+          height: 3px;
+          border: 0px;
+          background-color: rgb(55, 218, 55);
+          margin-left: 47.5%;
+          margin-top: 10px     
+      
+        }
+        .content{
+          padding:0px
+        }
+        .minititle{
+          height: 300px;
+          width: 50%;
+          font-family:sans-serif ;
+          margin-top: 40px;
+          position: absolute;
+          color:rgba(0, 0, 0, 0.808);
+          background-color:rgb(245, 244, 244);
+          text-align: center;
+        }
+        body{
+          background-color:rgb(245, 244, 244);
+        }
+       
+    
+        
+    

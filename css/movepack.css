@@ -1,0 +1,98 @@
+     .post{
+       font-family: 'Times New Roman';
+         width: 400px;
+         height: 520px;
+         margin-top:-450px ;
+         margin-left:805px;
+         
+     }
+    
+     .animationBox{
+      width: 600px;
+         height: 520px;
+         margin-top:10px ;
+         margin-left:125px;  
+     }
+     .response{
+       margin-top: -150px;
+       margin-left: 70px;
+       
+     }
+     h1{
+        color: rgb(6, 194, 6); 
+        margin-top: -16px;
+        font-family: new times roman;
+        margin-bottom: 15px;
+        font-size: 30px;
+        padding-left: 70px;
+     }
+     .inputWithIcon input[type-text]{
+     
+      padding-left: 50px;
+
+     }
+     .inputWithIcon{
+       position: relative;
+  
+     }
+     .inputWithIconuser{
+       position: relative;
+     }
+     .inputWithIcon::placeholder{
+       padding-left: 60px;
+     }
+     .inputWithIcon i{
+       position: absolute;
+       left: 0;
+       top: 8px;
+       padding: 19px 18px;
+       color:rgb(5, 143, 5);  
+     }
+     .inputWithIconuser i{
+      position: absolute;
+       left: 0;
+       top: 8px;
+       padding: 3px 18px;
+       color:rgb(5, 143, 5); 
+     }
+     select{
+         height: 50px;
+      font-size: 17px;
+         width: 25%;
+         margin-top: -8px;
+         text-align: center;
+       padding: 10px;
+       font-family:new times roman ;
+       border-radius: 5px;
+       border: 1px solid  lightgreen;
+     }
+     #wfrom #wto{
+      font-family:new times roman ;
+       margin-left: 10px;
+     }
+     .inputs{
+         height: 50px;
+         width: 25%;
+         padding:20px;
+         border-radius: 5px;
+         border: 1px solid  lightgreen;
+         margin-top: -8px;
+         font-size: 17px;
+         font-family:new times roman ;
+     }
+  .searchbutton {
+ 
+ width: 190px;
+ height: 40px;
+ border: 1px;
+ font-size: 20px;
+ border-radius: 15px;
+ background-color: rgb(12, 196, 12);
+ color: white;
+ font-family: new times roman;
+ text-align: center;
+}
+.post{
+  font-family:new times roman ;
+}
+
